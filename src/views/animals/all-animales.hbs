@@ -1,0 +1,15 @@
+<div class="row">
+    {{#each animals}}
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title d-flex justify-content-between align-items-center">
+                {{ animals }} <a href="#"><i class="fas fa-edit"></i></a>
+                </h4>
+                
+                <button type="submit" class="btn btn-danger btn-block btn-sm">Delete</button>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>
